@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22657" started-at="2020-09-23T19:09:07 IST" finished-at="2020-09-23T19:09:29 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22657" started-at="2020-09-23T19:09:07 IST" finished-at="2020-09-23T19:09:29 IST">
+      <class name="testCases.KiteLoginTest">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:testCases.KiteLoginTest@2833cc44]" name="Browser" is-config="true" duration-ms="11551" started-at="2020-09-23T19:09:07 IST" finished-at="2020-09-23T19:09:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="loginKite()[pri:0, instance:testCases.KiteLoginTest@2833cc44]" name="loginKite" is-config="true" duration-ms="4584" started-at="2020-09-23T19:09:18 IST" finished-at="2020-09-23T19:09:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginKite -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testCases.KiteLoginTest@2833cc44]" name="loginTest" duration-ms="4987" started-at="2020-09-23T19:09:23 IST" finished-at="2020-09-23T19:09:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logOutKite(org.testng.ITestResult)[pri:0, instance:testCases.KiteLoginTest@2833cc44]" name="logOutKite" is-config="true" duration-ms="8" started-at="2020-09-23T19:09:28 IST" finished-at="2020-09-23T19:09:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=KiteLoginTest.loginTest()[pri:0, instance:testCases.KiteLoginTest@2833cc44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutKite -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.KiteLoginTest@2833cc44]" name="closeBrowser" is-config="true" duration-ms="1358" started-at="2020-09-23T19:09:28 IST" finished-at="2020-09-23T19:09:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.KiteLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
